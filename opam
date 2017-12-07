@@ -10,7 +10,7 @@ dev-repo: "https://github.com/PrattFall/DiceCaddy.git"
 build: [
   [make]
 ]
-install: [make "install"]
+#install: [make "install"]
 remove: ["ocamlfind" "remove" "DiceCaddy"]
 depends: [
   "ocamlfind" {build}
