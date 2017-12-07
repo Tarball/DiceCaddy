@@ -20,6 +20,7 @@ depends: [
   "lwt"
   "cohttp"
   "cohttp-lwt"
+  "cohttp-lwt-unix"
   "ounit" {test}
   "yojson"
 ]
